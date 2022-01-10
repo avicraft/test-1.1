@@ -1,0 +1,48 @@
+{
+    "bot-account":{ 
+        "username": "Trixie113@easymc.io",
+        "password": "xiDzCofm2RR6x4rWyJia",
+        "type": "Mojang"
+    },
+
+    "server":{
+        "ip": "AviCraftJmNM.aternos.me",
+        "port": 21000,
+        "version": "1.17.1"
+    },
+
+    "position":{
+        "enabled": false,
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+
+    "utils":{
+        "auto-auth":{
+            "enabled": false,
+            "password": "12345678"
+        },
+
+        "anti-afk":{
+            "enabled": true,
+            "sneak": true
+        },
+
+        "chat-messages":{
+            "enabled": true,
+            "repeat": true,
+            "repeat-delay": 60,
+
+            "messages": [
+                "I'm a bot", 
+                "My owner is AviCraft", 
+                "I want be alone ", 
+                "Error 422"
+            ]
+        },
+
+        "chat-log": true,
+        "auto-reconnect": true
+    }
+}
